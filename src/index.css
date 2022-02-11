@@ -8,6 +8,11 @@ body {
   background-color: #e7f8f8;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 .centered {
   margin: 3rem auto;
   text-align: center;

@@ -7,6 +7,9 @@ const Layout = (props) => {
     <Fragment>
       <MainNavigation />
       <main className={classes.main}>{props.children}</main>
+      <footer className={classes.footer}>
+        Website developed by Thaisa Lima :){" "}
+      </footer>
     </Fragment>
   );
 };
