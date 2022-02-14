@@ -1,16 +1,15 @@
-import { Fragment } from "react/cjs/react.production.min";
 import classes from "./Layout.module.css";
 import MainNavigation from "./MainNavigation";
 
 const Layout = (props) => {
   return (
-    <Fragment>
+    <article className={classes.article}>
       <MainNavigation />
       <main className={classes.main}>{props.children}</main>
       <footer className={classes.footer}>
-        Website developed by Thaisa Lima :){" "}
+        Website developed by Thaisa Lima :)
       </footer>
-    </Fragment>
+    </article>
   );
 };
 
